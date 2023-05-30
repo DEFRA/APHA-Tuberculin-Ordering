@@ -14673,15 +14673,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\m1006109\\.nuget\\packages\\": {}
+    "C:\\Users\\M1006990\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "Tuberculin Ordering",
       "projectName": "Tuberculin Ordering",
-      "projectPath": "C:\\UiPath\\GITHUB\\APHA-Tuberculin-Ordering\\Tuberculin Ordering\\.local",
-      "packagesPath": "C:\\Users\\m1006109\\.nuget\\packages\\",
-      "outputPath": "C:\\UiPath\\GITHUB\\APHA-Tuberculin-Ordering\\Tuberculin Ordering\\.local"
+      "projectPath": "C:\\Users\\M1006990\\OneDrive - Defra\\UiPath Working Folder\\APHA-Tuberculin-Ordering\\Tuberculin Ordering\\.local",
+      "packagesPath": "C:\\Users\\M1006990\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\M1006990\\OneDrive - Defra\\UiPath Working Folder\\APHA-Tuberculin-Ordering\\Tuberculin Ordering\\.local"
     },
     "frameworks": {
       "net461": {

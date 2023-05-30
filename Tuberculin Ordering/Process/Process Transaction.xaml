@@ -11,7 +11,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>704,1718</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1233.33333333333,1724</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Process_Transaction_2_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="63">
@@ -130,10 +130,9 @@
       <AssemblyReference>System.Collections.Immutable</AssemblyReference>
       <AssemblyReference>UiPath.Platform</AssemblyReference>
       <AssemblyReference>Pop Ups</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Flowchart sap2010:Annotation.AnnotationText="Invoke major steps of the business process, which are usually implemented by multiple subworkflows.&#xA;&#xA;If a BusinessRuleException is thrown, the transaction is skipped. &#xA;If another kind of exception occurs, the current transaction can be retried. " sap:VirtualizedContainerService.HintSize="634,1653" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+  <Flowchart sap2010:Annotation.AnnotationText="Invoke major steps of the business process, which are usually implemented by multiple subworkflows.&#xA;&#xA;If a BusinessRuleException is thrown, the transaction is skipped. &#xA;If another kind of exception occurs, the current transaction can be retried. " sap:VirtualizedContainerService.HintSize="634,1659.33333333333" sap2010:WorkflowViewState.IdRef="Flowchart_1">
     <Flowchart.Variables>
       <Variable x:TypeArguments="sd2:DataTable" Name="dtResult" />
       <Variable x:TypeArguments="x:String" Name="strName" />
@@ -149,7 +148,7 @@
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
-        <av:Size x:Key="ShapeSize">60,75</av:Size>
+        <av:Size x:Key="ShapeSize">60,74.6666666666667</av:Size>
         <av:PointCollection x:Key="ConnectorLocation">300,77.1666666666667 300,127.166666666667</av:PointCollection>
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
         <x:Double x:Key="Height">1544.5000000000005</x:Double>
@@ -162,11 +161,11 @@
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">200,127.166666666667</av:Point>
-          <av:Size x:Key="ShapeSize">200,66</av:Size>
-          <av:PointCollection x:Key="ConnectorLocation">300,193.166666666667 300,246.5</av:PointCollection>
+          <av:Size x:Key="ShapeSize">200,69.3333333333333</av:Size>
+          <av:PointCollection x:Key="ConnectorLocation">300,196.5 300,246.5</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="Save Attachments" sap:VirtualizedContainerService.HintSize="622,1865" sap2010:WorkflowViewState.IdRef="Sequence_1">
+      <Sequence DisplayName="Save Attachments" sap:VirtualizedContainerService.HintSize="200,69.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -240,11 +239,11 @@
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <av:Point x:Key="ShapeLocation">200,246.5</av:Point>
-              <av:Size x:Key="ShapeSize">200,66</av:Size>
-              <av:PointCollection x:Key="ConnectorLocation">300,312.5 300,365.833333333333</av:PointCollection>
+              <av:Size x:Key="ShapeSize">200,69.3333333333333</av:Size>
+              <av:PointCollection x:Key="ConnectorLocation">300,315.833333333333 300,365.833333333333</av:PointCollection>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Sequence sap2010:Annotation.AnnotationText="IDP Sample Extractor - Designed to loop through a folder that a user selects at startup, loop through all PDF files, show validation station/output to excel (based on variables) and then move the PDF to a &quot;Completed&quot; sub-folder.&#xA;&#xA;Requires UiPath.IntelligentOCR package (designed on 6.9.0), UiPath.OCR (designed on 3.15.1) and UiPath.Excel (if outputting to Excel)&#xA;&#xA;Developer Instructions:&#xA;Change Top level variables for requirements:&#xA;1) Whether you need to extract the results to Excel&#xA;2) Where the Excel document should be saved (if results will be extracted)&#xA;3) Where the PDF files should be retrieved from (by default the &quot;Processing Folder&quot; within the project)&#xA;4) Click on Taxonomy Manager, create (or update if relevant) a new Document Type, create/update each field that will need to be extracted from the scanned PDF file&#xA;5) In the Form Extractor activity, click Manage Templates, then click Create Template - highlight all fields needed in the Template Manager that loads&#xA;6) Click Configure Extractor and tick the checkbox next to the new template (this will extract all fields)&#xA;7) Set any fields, priority group and mandatory flags needed within &quot;DocumentProcessing\Field Level Confidences.csv&quot; (if using the Field Confidence Check activity) &#xA;    N.B Field names must EXACTLY match the field names provided in the taxonomy.&#xA;8) Set the confidence levels required for each group within &quot;DocumentProcessing\Priority Group Percentages.csv&quot; (if using the Field Confidence Check activity)&#xA;9) Update in_DocumentType within the Generate Filtered Taxonomy activity. Should be changed to the name of the Document Type as found in the Taxonomy Manager.&#xA;10) Run File&#xA;&#xA;After amending top level variables, run robot." DisplayName="IDP" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_17">
+          <Sequence sap2010:Annotation.AnnotationText="IDP Sample Extractor - Designed to loop through a folder that a user selects at startup, loop through all PDF files, show validation station/output to excel (based on variables) and then move the PDF to a &quot;Completed&quot; sub-folder.&#xA;&#xA;Requires UiPath.IntelligentOCR package (designed on 6.9.0), UiPath.OCR (designed on 3.15.1) and UiPath.Excel (if outputting to Excel)&#xA;&#xA;Developer Instructions:&#xA;Change Top level variables for requirements:&#xA;1) Whether you need to extract the results to Excel&#xA;2) Where the Excel document should be saved (if results will be extracted)&#xA;3) Where the PDF files should be retrieved from (by default the &quot;Processing Folder&quot; within the project)&#xA;4) Click on Taxonomy Manager, create (or update if relevant) a new Document Type, create/update each field that will need to be extracted from the scanned PDF file&#xA;5) In the Form Extractor activity, click Manage Templates, then click Create Template - highlight all fields needed in the Template Manager that loads&#xA;6) Click Configure Extractor and tick the checkbox next to the new template (this will extract all fields)&#xA;7) Set any fields, priority group and mandatory flags needed within &quot;DocumentProcessing\Field Level Confidences.csv&quot; (if using the Field Confidence Check activity) &#xA;    N.B Field names must EXACTLY match the field names provided in the taxonomy.&#xA;8) Set the confidence levels required for each group within &quot;DocumentProcessing\Priority Group Percentages.csv&quot; (if using the Field Confidence Check activity)&#xA;9) Update in_DocumentType within the Generate Filtered Taxonomy activity. Should be changed to the name of the Document Type as found in the Taxonomy Manager.&#xA;10) Run File&#xA;&#xA;After amending top level variables, run robot." DisplayName="IDP" sap:VirtualizedContainerService.HintSize="200,69.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_17">
             <Sequence.Variables>
               <Variable x:TypeArguments="p5:Document" Name="oDocument" />
               <Variable x:TypeArguments="x:String" Name="strText" />
@@ -580,11 +579,11 @@
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <av:Point x:Key="ShapeLocation">200,365.833333333333</av:Point>
-                  <av:Size x:Key="ShapeSize">200,66</av:Size>
-                  <av:PointCollection x:Key="ConnectorLocation">300,431.833333333333 300,485.166666666667</av:PointCollection>
+                  <av:Size x:Key="ShapeSize">200,69.3333333333333</av:Size>
+                  <av:PointCollection x:Key="ConnectorLocation">300,435.166666666666 300,485.166666666667</av:PointCollection>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <Sequence DisplayName="Data Validation" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_21">
+              <Sequence DisplayName="Data Validation" sap:VirtualizedContainerService.HintSize="200,69.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_21">
                 <Sequence.Variables>
                   <Variable x:TypeArguments="x:Boolean" Name="booDataMissing" />
                   <Variable x:TypeArguments="x:String" Default="Data Missing: " Name="strDataTypeMissing" />
@@ -913,11 +912,11 @@
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <av:Point x:Key="ShapeLocation">200,485.166666666667</av:Point>
-                      <av:Size x:Key="ShapeSize">200,66</av:Size>
-                      <av:PointCollection x:Key="ConnectorLocation">300,551.166666666667 300,604.5</av:PointCollection>
+                      <av:Size x:Key="ShapeSize">200,69.3333333333333</av:Size>
+                      <av:PointCollection x:Key="ConnectorLocation">300,554.5 300,604.5</av:PointCollection>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <Sequence DisplayName="Pausepoint 1" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_28">
+                  <Sequence DisplayName="Pausepoint 1" sap:VirtualizedContainerService.HintSize="200,69.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_28">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -949,11 +948,11 @@
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <av:Point x:Key="ShapeLocation">200,604.5</av:Point>
-                          <av:Size x:Key="ShapeSize">200,66</av:Size>
-                          <av:PointCollection x:Key="ConnectorLocation">300,670.5 300,723.833333333333</av:PointCollection>
+                          <av:Size x:Key="ShapeSize">200,69.3333333333333</av:Size>
+                          <av:PointCollection x:Key="ConnectorLocation">300,673.833333333333 300,723.833333333333</av:PointCollection>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <Sequence DisplayName="Search RCVS Website" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_29">
+                      <Sequence DisplayName="Search RCVS Website" sap:VirtualizedContainerService.HintSize="200,69.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_29">
                         <Sequence.Variables>
                           <Variable x:TypeArguments="x:Boolean" Name="booElementExists" />
                           <Variable x:TypeArguments="ui:Browser" Name="Browser" />
@@ -1123,11 +1122,11 @@
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <av:Point x:Key="ShapeLocation">200,723.833333333333</av:Point>
-                              <av:Size x:Key="ShapeSize">200,66</av:Size>
-                              <av:PointCollection x:Key="ConnectorLocation">300,789.833333333333 300,843.166666666667</av:PointCollection>
+                              <av:Size x:Key="ShapeSize">200,69.3333333333333</av:Size>
+                              <av:PointCollection x:Key="ConnectorLocation">300,793.166666666666 300,843.166666666667</av:PointCollection>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <Sequence DisplayName="RCVS Validation" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_35">
+                          <Sequence DisplayName="RCVS Validation" sap:VirtualizedContainerService.HintSize="200,69.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_35">
                             <Sequence.Variables>
                               <Variable x:TypeArguments="x:String" Name="strApproverName" />
                               <Variable x:TypeArguments="x:Int32" Name="intWordCount" />
@@ -1288,11 +1287,11 @@
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <av:Point x:Key="ShapeLocation">200,843.166666666667</av:Point>
-                                  <av:Size x:Key="ShapeSize">200,66</av:Size>
-                                  <av:PointCollection x:Key="ConnectorLocation">300,909.166666666667 300,962.5</av:PointCollection>
+                                  <av:Size x:Key="ShapeSize">200,69.3333333333333</av:Size>
+                                  <av:PointCollection x:Key="ConnectorLocation">300,912.5 300,962.5</av:PointCollection>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <Sequence DisplayName="Open Integra" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_47">
+                              <Sequence DisplayName="Open Integra" sap:VirtualizedContainerService.HintSize="200,69.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_47">
                                 <Sequence.Variables>
                                   <Variable x:TypeArguments="ui:Browser" Name="Browser" />
                                   <Variable x:TypeArguments="x:Boolean" Name="booExists" />
@@ -1472,11 +1471,11 @@
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <av:Point x:Key="ShapeLocation">200,962.5</av:Point>
-                                      <av:Size x:Key="ShapeSize">200,66</av:Size>
-                                      <av:PointCollection x:Key="ConnectorLocation">300,1028.5 300,1081.83333333333</av:PointCollection>
+                                      <av:Size x:Key="ShapeSize">200,69.3333333333333</av:Size>
+                                      <av:PointCollection x:Key="ConnectorLocation">300,1031.83333333333 300,1081.83333333333</av:PointCollection>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
-                                  <Sequence DisplayName="SOP301 Form" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_55">
+                                  <Sequence DisplayName="SOP301 Form" sap:VirtualizedContainerService.HintSize="878,8088" sap2010:WorkflowViewState.IdRef="Sequence_55">
                                     <Sequence.Variables>
                                       <Variable x:TypeArguments="sd2:DataTable" Name="datCustomerResults" />
                                       <Variable x:TypeArguments="x:Boolean" Name="booNoMatch" />
@@ -1486,14 +1485,14 @@
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
-                                    <ui:ReportStatus DisplayName="Report Status - Extracting Document Information..." sap:VirtualizedContainerService.HintSize="836,66" sap2010:WorkflowViewState.IdRef="ReportStatus_9" StatusText="[&quot;Completing SOP301...&quot;]" />
-                                    <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Edge" DisplayName="Attach Browser - Integra" sap:VirtualizedContainerService.HintSize="836,7871" sap2010:WorkflowViewState.IdRef="BrowserScope_1" InformativeScreenshot="c8e0094679e81616c96bf8789b79cbd7" Selector="&lt;html app='msedge.exe' htmlwindowname='uiid*' title='eSeries - *' /&gt;">
+                                    <ui:ReportStatus DisplayName="Report Status - Extracting Document Information..." sap:VirtualizedContainerService.HintSize="836,68" sap2010:WorkflowViewState.IdRef="ReportStatus_9" StatusText="[&quot;Completing SOP301...&quot;]" />
+                                    <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Edge" DisplayName="Attach Browser - Integra" sap:VirtualizedContainerService.HintSize="836,7888" sap2010:WorkflowViewState.IdRef="BrowserScope_1" InformativeScreenshot="c8e0094679e81616c96bf8789b79cbd7" Selector="&lt;html app='msedge.exe' htmlwindowname='uiid*' title='eSeries - *' /&gt;">
                                       <ui:BrowserScope.Body>
                                         <ActivityAction x:TypeArguments="x:Object">
                                           <ActivityAction.Argument>
                                             <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
                                           </ActivityAction.Argument>
-                                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="802,7725" sap2010:WorkflowViewState.IdRef="Sequence_56">
+                                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="802,7742" sap2010:WorkflowViewState.IdRef="Sequence_56">
                                             <Sequence.Variables>
                                               <Variable x:TypeArguments="x:Boolean" Name="booElementExists" />
                                               <Variable x:TypeArguments="x:Int32" Name="intCounter" />
@@ -1537,7 +1536,7 @@
                                                 </ui:Target>
                                               </ui:SetValue.Target>
                                             </ui:SetValue>
-                                            <Assign DisplayName="Set company code to 1" sap:VirtualizedContainerService.HintSize="760,60" sap2010:WorkflowViewState.IdRef="Assign_24">
+                                            <Assign DisplayName="Set company code to 1" sap:VirtualizedContainerService.HintSize="760,62" sap2010:WorkflowViewState.IdRef="Assign_24">
                                               <Assign.To>
                                                 <OutArgument x:TypeArguments="x:String">[strCompanyCode]</OutArgument>
                                               </Assign.To>
@@ -1545,9 +1544,9 @@
                                                 <InArgument x:TypeArguments="x:String">000001</InArgument>
                                               </Assign.Value>
                                             </Assign>
-                                            <If Condition="[dtResult(0)(2).tostring.contains(&quot;APHA&quot;)]" DisplayName="If address contains &quot;APHA&quot;" sap:VirtualizedContainerService.HintSize="760,246" sap2010:WorkflowViewState.IdRef="If_32">
+                                            <If Condition="[dtResult(0)(2).tostring.contains(&quot;APHA&quot;)]" DisplayName="If address contains &quot;APHA&quot;" sap:VirtualizedContainerService.HintSize="760,253.333333333333" sap2010:WorkflowViewState.IdRef="If_32">
                                               <If.Then>
-                                                <Assign DisplayName="Set company code to 2" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_25">
+                                                <Assign DisplayName="Set company code to 2" sap:VirtualizedContainerService.HintSize="262,62" sap2010:WorkflowViewState.IdRef="Assign_25">
                                                   <Assign.To>
                                                     <OutArgument x:TypeArguments="x:String">[strCompanyCode]</OutArgument>
                                                   </Assign.To>
@@ -1566,9 +1565,9 @@
                                                 </Sequence>
                                               </If.Else>
                                             </If>
-                                            <If Condition="[dtResult(0)(2).tostring.contains(&quot;Jersey&quot;) or dtResult(0)(2).tostring.contains(&quot;Guernsey&quot;)]" DisplayName="If address contains Jersey or Guernsey" sap:VirtualizedContainerService.HintSize="760,246" sap2010:WorkflowViewState.IdRef="If_33">
+                                            <If Condition="[dtResult(0)(2).tostring.contains(&quot;Jersey&quot;) or dtResult(0)(2).tostring.contains(&quot;Guernsey&quot;)]" DisplayName="If address contains Jersey or Guernsey" sap:VirtualizedContainerService.HintSize="760,253.333333333333" sap2010:WorkflowViewState.IdRef="If_33">
                                               <If.Then>
-                                                <Assign DisplayName="Set company code to 3" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_26">
+                                                <Assign DisplayName="Set company code to 3" sap:VirtualizedContainerService.HintSize="262,62" sap2010:WorkflowViewState.IdRef="Assign_26">
                                                   <Assign.To>
                                                     <OutArgument x:TypeArguments="x:String">[strCompanyCode]</OutArgument>
                                                   </Assign.To>
@@ -1613,7 +1612,7 @@
                                             </ui:SetValue>
                                             <ui:SetValue AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Set Text - TUB" sap:VirtualizedContainerService.HintSize="760,134" sap2010:WorkflowViewState.IdRef="SetValue_13" Text="TUB">
                                               <ui:SetValue.Target>
-                                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="52f7d4c6-6ef5-4a05-9071-c9d75b151c53" InformativeScreenshot="3ae967cc09e2becad1a6730014fdbc39" Selector="&lt;html app='msedge.exe' htmlwindowname='uiid*' /&gt;&lt;webctrl id='order_type' tag='INPUT' aaname=' Order Type ' colName=' Company Code  ' /&gt;">
+                                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="52f7d4c6-6ef5-4a05-9071-c9d75b151c53" InformativeScreenshot="3ae967cc09e2becad1a6730014fdbc39" Selector="&lt;html app='msedge.exe' htmlwindowname='uiid*' title='https://*/sop301.xsp' /&gt;&lt;webctrl tableRow='1' tag='TABLE' /&gt;&lt;webctrl tableRow='6' tag='INPUT' aaname=' Order Type ' /&gt;">
                                                   <ui:Target.TimeoutMS>
                                                     <InArgument x:TypeArguments="x:Int32" />
                                                   </ui:Target.TimeoutMS>
@@ -2139,7 +2138,7 @@
                                                 </ui:Target>
                                               </ui:Click.Target>
                                             </ui:Click>
-                                            <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'Home'" sap:VirtualizedContainerService.HintSize="562.666666666667,106" sap2010:WorkflowViewState.IdRef="Click_12" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+                                            <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'Home'" sap:VirtualizedContainerService.HintSize="760,106" sap2010:WorkflowViewState.IdRef="Click_12" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
                                               <ui:Click.CursorPosition>
                                                 <ui:CursorPosition Position="Center">
                                                   <ui:CursorPosition.OffsetX>
@@ -2171,11 +2170,11 @@
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <av:Point x:Key="ShapeLocation">200,1081.83333333333</av:Point>
-                                          <av:Size x:Key="ShapeSize">200,66</av:Size>
-                                          <av:PointCollection x:Key="ConnectorLocation">300,1147.83333333333 300,1201.16666666667</av:PointCollection>
+                                          <av:Size x:Key="ShapeSize">200,69.3333333333333</av:Size>
+                                          <av:PointCollection x:Key="ConnectorLocation">300,1151.16666666666 300,1201.16666666667</av:PointCollection>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <Sequence DisplayName="SOP600 Form" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_68">
+                                      <Sequence DisplayName="SOP600 Form" sap:VirtualizedContainerService.HintSize="526,2256.66666666667" sap2010:WorkflowViewState.IdRef="Sequence_68">
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2397,10 +2396,10 @@
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                               <av:Point x:Key="ShapeLocation">200,1201.16666666667</av:Point>
-                                              <av:Size x:Key="ShapeSize">200,66</av:Size>
+                                              <av:Size x:Key="ShapeSize">200,69.3333333333333</av:Size>
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
-                                          <Sequence DisplayName="Follow Up Email" sap:VirtualizedContainerService.HintSize="612,2015" sap2010:WorkflowViewState.IdRef="Sequence_74">
+                                          <Sequence DisplayName="Follow Up Email" sap:VirtualizedContainerService.HintSize="200,69.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_74">
                                             <Sequence.Variables>
                                               <Variable x:TypeArguments="x:String" Name="strOutgoingEmail" />
                                               <Variable x:TypeArguments="scg:List(snm:MailMessage)" Name="listMessages" />
