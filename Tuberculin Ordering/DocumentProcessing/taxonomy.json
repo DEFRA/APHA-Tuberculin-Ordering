@@ -242,27 +242,6 @@
           ],
           "RuleSet": null,
           "DefaultValue": ""
-        },
-        {
-          "FieldId": "NoGroup.NoCategory.TuberculinOrderForm.TickBox",
-          "FieldName": "Tick Box",
-          "IsMultiValue": false,
-          "Type": "Text",
-          "DeriveFieldsFormat": "",
-          "Components": [],
-          "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "Color",
-              "Value": "#6344b0"
-            },
-            {
-              "Key": "Hotkey",
-              "Value": "k"
-            }
-          ],
-          "RuleSet": null,
-          "DefaultValue": ""
         }
       ]
     }
