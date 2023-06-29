@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.6.1": {
-      "AvalonEdit/6.0.1": {
+      "AvalonEdit/6.1.3.50": {
         "type": "package",
         "frameworkAssemblies": [
           "System.Windows.Forms"
@@ -230,21 +230,26 @@
           "lib/netstandard2.0/Humanizer.dll": {}
         }
       },
-      "IDP/1.0.9": {
+      "IDP/1.0.13": {
         "type": "package",
         "dependencies": {
           "UiPath.Excel.Activities": "2.12.3",
           "UiPath.IntelligentOCR.Activities": "6.6.0",
           "UiPath.System.Activities": "20.4.0",
-          "UiPath.UIAutomation.Activities": "20.4.2"
+          "UiPath.UIAutomation.Activities": "20.4.2",
+          "UiPath.WebAPI.Activities": "1.13.3"
         },
         "compile": {
           "lib/net45/_._": {}
         },
         "runtime": {
           "lib/net45/IDP.dll": {},
-          "lib/net45/IDP_Expressions_26051505.dll": {},
-          "lib/net45/IDP_Expressions_29190913.dll": {}
+          "lib/net45/IDP_Expressions_12076145.dll": {},
+          "lib/net45/IDP_Expressions_16991442.dll": {},
+          "lib/net45/IDP_Expressions_26341898.dll": {},
+          "lib/net45/IDP_Expressions_34608171.dll": {},
+          "lib/net45/IDP_Expressions_46780639.dll": {},
+          "lib/net45/IDP_Expressions_51192825.dll": {}
         },
         "contentFiles": {
           "contentFiles/any/any/_._": {
@@ -1002,7 +1007,7 @@
           "lib/net40/BouncyCastle.Crypto.dll": {}
         }
       },
-      "RestSharp/106.6.10": {
+      "RestSharp/106.15.0": {
         "type": "package",
         "frameworkAssemblies": [
           "System.Web"
@@ -3585,13 +3590,14 @@
           "lib/net461/UiPath.Vision.dll": {}
         }
       },
-      "UiPath.WebAPI.Activities/1.9.2": {
+      "UiPath.WebAPI.Activities/1.13.3": {
         "type": "package",
         "dependencies": {
-          "AvalonEdit": "6.0.1",
+          "AvalonEdit": "6.1.3.50",
           "Microsoft.CSharp": "4.7.0",
-          "Newtonsoft.Json": "11.0.2",
-          "RestSharp": "106.6.10"
+          "Newtonsoft.Json": "13.0.1",
+          "RestSharp": "106.15.0",
+          "UiPath.Platform": "22.10.2"
         },
         "compile": {
           "lib/net461/_._": {}
@@ -3667,6 +3673,18 @@
           },
           "lib/net461/zh-CN/UiPath.Web.Activities.resources.dll": {
             "locale": "zh-CN"
+          },
+          "lib/net461/zh-TW/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "zh-TW"
+          },
+          "lib/net461/zh-TW/UiPath.Web.Activities.resources.dll": {
+            "locale": "zh-TW"
+          },
+          "lib/net461/zu/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "zu"
+          },
+          "lib/net461/zu/UiPath.Web.Activities.resources.dll": {
+            "locale": "zu"
           }
         }
       },
@@ -3855,7 +3873,7 @@
       }
     },
     ".NETFramework,Version=v4.6.1/win10-x64": {
-      "AvalonEdit/6.0.1": {
+      "AvalonEdit/6.1.3.50": {
         "type": "package",
         "frameworkAssemblies": [
           "System.Windows.Forms"
@@ -4083,21 +4101,26 @@
           "lib/netstandard2.0/Humanizer.dll": {}
         }
       },
-      "IDP/1.0.9": {
+      "IDP/1.0.13": {
         "type": "package",
         "dependencies": {
           "UiPath.Excel.Activities": "2.12.3",
           "UiPath.IntelligentOCR.Activities": "6.6.0",
           "UiPath.System.Activities": "20.4.0",
-          "UiPath.UIAutomation.Activities": "20.4.2"
+          "UiPath.UIAutomation.Activities": "20.4.2",
+          "UiPath.WebAPI.Activities": "1.13.3"
         },
         "compile": {
           "lib/net45/_._": {}
         },
         "runtime": {
           "lib/net45/IDP.dll": {},
-          "lib/net45/IDP_Expressions_26051505.dll": {},
-          "lib/net45/IDP_Expressions_29190913.dll": {}
+          "lib/net45/IDP_Expressions_12076145.dll": {},
+          "lib/net45/IDP_Expressions_16991442.dll": {},
+          "lib/net45/IDP_Expressions_26341898.dll": {},
+          "lib/net45/IDP_Expressions_34608171.dll": {},
+          "lib/net45/IDP_Expressions_46780639.dll": {},
+          "lib/net45/IDP_Expressions_51192825.dll": {}
         },
         "contentFiles": {
           "contentFiles/any/any/_._": {
@@ -4855,7 +4878,7 @@
           "lib/net40/BouncyCastle.Crypto.dll": {}
         }
       },
-      "RestSharp/106.6.10": {
+      "RestSharp/106.15.0": {
         "type": "package",
         "frameworkAssemblies": [
           "System.Web"
@@ -7358,13 +7381,14 @@
           "lib/net461/UiPath.Vision.dll": {}
         }
       },
-      "UiPath.WebAPI.Activities/1.9.2": {
+      "UiPath.WebAPI.Activities/1.13.3": {
         "type": "package",
         "dependencies": {
-          "AvalonEdit": "6.0.1",
+          "AvalonEdit": "6.1.3.50",
           "Microsoft.CSharp": "4.7.0",
-          "Newtonsoft.Json": "11.0.2",
-          "RestSharp": "106.6.10"
+          "Newtonsoft.Json": "13.0.1",
+          "RestSharp": "106.15.0",
+          "UiPath.Platform": "22.10.2"
         },
         "compile": {
           "lib/net461/_._": {}
@@ -7440,6 +7464,18 @@
           },
           "lib/net461/zh-CN/UiPath.Web.Activities.resources.dll": {
             "locale": "zh-CN"
+          },
+          "lib/net461/zh-TW/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "zh-TW"
+          },
+          "lib/net461/zh-TW/UiPath.Web.Activities.resources.dll": {
+            "locale": "zh-TW"
+          },
+          "lib/net461/zu/UiPath.Web.Activities.Design.resources.dll": {
+            "locale": "zu"
+          },
+          "lib/net461/zu/UiPath.Web.Activities.resources.dll": {
+            "locale": "zu"
           }
         }
       },
@@ -7629,20 +7665,26 @@
     }
   },
   "libraries": {
-    "AvalonEdit/6.0.1": {
-      "sha512": "JmRwKMDRUUkUGLQmTtIHiSgFSQH9567b2/55Wa/gQp+ZtxQN+mnl5Qt6B/Kgz56FMnnDyE/fV23r7J2SV+NP7g==",
+    "AvalonEdit/6.1.3.50": {
+      "sha512": "PtR4iPGu965DMSaDs0RyGi1LK94kUwWIZUGx1Jpg5vJr52KKQPR+KMwIthcpgoQR6xJWKM2MkZ41setJXuzMWA==",
       "type": "package",
-      "path": "avalonedit/6.0.1",
+      "path": "avalonedit/6.1.3.50",
       "files": [
         ".nupkg.metadata",
-        "avalonedit.6.0.1.nupkg.sha512",
+        ".signature.p7s",
+        "avalonedit.6.1.3.50.nupkg.sha512",
         "avalonedit.nuspec",
+        "images/AvalonEditNuGetPackageIcon.png",
         "lib/net40/ICSharpCode.AvalonEdit.dll",
         "lib/net40/ICSharpCode.AvalonEdit.xml",
         "lib/net45/ICSharpCode.AvalonEdit.dll",
         "lib/net45/ICSharpCode.AvalonEdit.xml",
-        "lib/netcoreapp3.0/ICSharpCode.AvalonEdit.dll",
-        "lib/netcoreapp3.0/ICSharpCode.AvalonEdit.xml"
+        "lib/net5.0-windows7.0/ICSharpCode.AvalonEdit.dll",
+        "lib/net5.0-windows7.0/ICSharpCode.AvalonEdit.xml",
+        "lib/net6.0-windows7.0/ICSharpCode.AvalonEdit.dll",
+        "lib/net6.0-windows7.0/ICSharpCode.AvalonEdit.xml",
+        "lib/netcoreapp3.1/ICSharpCode.AvalonEdit.dll",
+        "lib/netcoreapp3.1/ICSharpCode.AvalonEdit.xml"
       ]
     },
     "BitMiracle.Docotic.Pdf/8.8.14512-dev": {
@@ -7888,31 +7930,36 @@
         "lib/netstandard2.0/Humanizer.xml"
       ]
     },
-    "IDP/1.0.9": {
-      "sha512": "PrDLG56YpoCbx5/j8TasUnXtJAQoClcyJxRGmksdD198CRCgJsA2oPd8dn7q0WNFJDhThVwvjgkzuFSMeECeaw==",
+    "IDP/1.0.13": {
+      "sha512": "NWVGwc/RGFbQtdrcrAnN57FjMVMg33CncUMOp8d7p8EZcPjOPgsAOcJBjdoIF6Es2QLqSIVrrzeneBqgtQmaDg==",
       "type": "package",
-      "path": "idp/1.0.9",
+      "path": "idp/1.0.13",
       "files": [
         ".nupkg.metadata",
         "contentFiles/any/any/.objects/.metadata",
         "contentFiles/any/any/.objects/.type",
-        "idp.1.0.9.nupkg.sha512",
+        "idp.1.0.13.nupkg.sha512",
         "idp.nuspec",
         "lib/net45/.project/design.json",
-        "lib/net45/.settings/Design/settings-5190454b.json",
-        "lib/net45/.settings/Design/settings-a1b2dac1.json",
         "lib/net45/.settings/Design/settings-afad0842.json",
         "lib/net45/.settings/Release/settings-1a5b880a.json",
         "lib/net45/.settings/Release/settings-5190454b.json",
         "lib/net45/.settings/Release/settings-590bb27b.json",
         "lib/net45/.settings/Release/settings-9e9290da.json",
-        "lib/net45/.settings/Release/settings-a1b2dac1.json",
         "lib/net45/.settings/Release/settings-afad0842.json",
         "lib/net45/IDP.dll",
-        "lib/net45/IDP_Expressions_26051505.dll",
-        "lib/net45/IDP_Expressions_29190913.dll",
+        "lib/net45/IDP_Expressions_12076145.dll",
+        "lib/net45/IDP_Expressions_16991442.dll",
+        "lib/net45/IDP_Expressions_26341898.dll",
+        "lib/net45/IDP_Expressions_34608171.dll",
+        "lib/net45/IDP_Expressions_46780639.dll",
+        "lib/net45/IDP_Expressions_51192825.dll",
         "lib/net45/Validation Station/Fields Confidence Check.xaml",
         "lib/net45/Validation Station/Generate Filtered Taxonomy.xaml",
+        "lib/net45/Validator/TestPostcode.xaml",
+        "lib/net45/Validator/Transform Postcode.xaml",
+        "lib/net45/Validator/Validate Postcode.xaml",
+        "lib/net45/Validator/Validate and Transform.xaml",
         "lib/net45/bindings.json",
         "lib/net45/bindings_v2.json",
         "lib/net45/project.json"
@@ -9064,19 +9111,19 @@
         "portable.bouncycastle.nuspec"
       ]
     },
-    "RestSharp/106.6.10": {
-      "sha512": "x1FM32hjnVOIn+DKtCs2Y4Q2DCUE5KW08NUXUd4GjgKjE+5PE0F6e9XfUg7nILo05M0TA/HRkRD/SeQ8+duOUA==",
+    "RestSharp/106.15.0": {
+      "sha512": "HM7ohR6AscxedNenrrl93DSZG6hvdnA7O+NHyCl/6ZKTfn8psQ9rRmUpcb9eWr+140vmfxoVemql0bUoeGEW3A==",
       "type": "package",
-      "path": "restsharp/106.6.10",
+      "path": "restsharp/106.15.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "lib/net452/RestSharp.dll",
         "lib/net452/RestSharp.xml",
         "lib/netstandard2.0/RestSharp.dll",
         "lib/netstandard2.0/RestSharp.xml",
-        "restsharp.106.6.10.nupkg.sha512",
-        "restsharp.nuspec"
+        "restsharp.106.15.0.nupkg.sha512",
+        "restsharp.nuspec",
+        "restsharp.png"
       ]
     },
     "SharpZipLib/1.3.3": {
@@ -14384,10 +14431,10 @@
         "uipath.vision.nuspec"
       ]
     },
-    "UiPath.WebAPI.Activities/1.9.2": {
-      "sha512": "XjBmCIz2Kbv1hBcIKpOKqSjED+U0HGtU0b5becAMxGTIcido8VEFEJs0X+goarLQoLDwOuBNFsBiemHX4GBQWg==",
+    "UiPath.WebAPI.Activities/1.13.3": {
+      "sha512": "ed+hVirhrRlPh3aVg78g6zIcbTLO/OofKVy5dz63W3kaP5y5mqqaX/Zs6Qbhv07MbZD3Rs3nwL3ZpejeJ/913w==",
       "type": "package",
-      "path": "uipath.webapi.activities/1.9.2",
+      "path": "uipath.webapi.activities/1.13.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -14416,6 +14463,10 @@
         "lib/net461/tr/UiPath.Web.Activities.resources.dll",
         "lib/net461/zh-CN/UiPath.Web.Activities.Design.resources.dll",
         "lib/net461/zh-CN/UiPath.Web.Activities.resources.dll",
+        "lib/net461/zh-TW/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net461/zh-TW/UiPath.Web.Activities.resources.dll",
+        "lib/net461/zu/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net461/zu/UiPath.Web.Activities.resources.dll",
         "lib/net5.0-windows7.0/UiPath.Web.Activities.Design.dll",
         "lib/net5.0-windows7.0/UiPath.Web.Activities.dll",
         "lib/net5.0-windows7.0/UiPath.Web.dll",
@@ -14441,6 +14492,10 @@
         "lib/net5.0-windows7.0/tr/UiPath.Web.Activities.resources.dll",
         "lib/net5.0-windows7.0/zh-CN/UiPath.Web.Activities.Design.resources.dll",
         "lib/net5.0-windows7.0/zh-CN/UiPath.Web.Activities.resources.dll",
+        "lib/net5.0-windows7.0/zh-TW/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net5.0-windows7.0/zh-TW/UiPath.Web.Activities.resources.dll",
+        "lib/net5.0-windows7.0/zu/UiPath.Web.Activities.Design.resources.dll",
+        "lib/net5.0-windows7.0/zu/UiPath.Web.Activities.resources.dll",
         "lib/net5.0/UiPath.Web.Activities.dll",
         "lib/net5.0/UiPath.Web.dll",
         "lib/net5.0/de/UiPath.Web.Activities.resources.dll",
@@ -14454,7 +14509,9 @@
         "lib/net5.0/ru/UiPath.Web.Activities.resources.dll",
         "lib/net5.0/tr/UiPath.Web.Activities.resources.dll",
         "lib/net5.0/zh-CN/UiPath.Web.Activities.resources.dll",
-        "uipath.webapi.activities.1.9.2.nupkg.sha512",
+        "lib/net5.0/zh-TW/UiPath.Web.Activities.resources.dll",
+        "lib/net5.0/zu/UiPath.Web.Activities.resources.dll",
+        "uipath.webapi.activities.1.13.3.nupkg.sha512",
         "uipath.webapi.activities.nuspec"
       ]
     },
@@ -14658,7 +14715,7 @@
     "": [],
     ".NETFramework,Version=v4.6.1": [
       "Credentials >= 1.0.2 <= 1.0.2",
-      "IDP >= 1.0.9 <= 1.0.9",
+      "IDP >= 1.0.13 <= 1.0.13",
       "Logging >= 1.0.10 <= 1.0.10",
       "Pop.Ups >= 1.0.3 <= 1.0.3",
       "UiPath.Excel.Activities >= 2.12.3 <= 2.12.3",
@@ -14694,7 +14751,7 @@
           "IDP": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[1.0.9, 1.0.9]"
+            "version": "[1.0.13, 1.0.13]"
           },
           "Logging": {
             "include": "Runtime",

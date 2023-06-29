@@ -16,7 +16,7 @@
           "FieldId": "NoGroup.NoCategory.TuberculinOrderForm.Date",
           "FieldName": "Date",
           "IsMultiValue": false,
-          "Type": "Text",
+          "Type": "Date",
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
@@ -184,7 +184,7 @@
           "FieldId": "NoGroup.NoCategory.TuberculinOrderForm.Approver'sName",
           "FieldName": "Approvers Name",
           "IsMultiValue": false,
-          "Type": "Text",
+          "Type": "Name",
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
@@ -226,7 +226,7 @@
           "FieldId": "NoGroup.NoCategory.TuberculinOrderForm.RCVSNumber",
           "FieldName": "RCVS Number",
           "IsMultiValue": false,
-          "Type": "Text",
+          "Type": "Number",
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
@@ -234,6 +234,250 @@
             {
               "Key": "Color",
               "Value": "#728af4"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "q"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        }
+      ]
+    },
+    {
+      "DocumentTypeId": "NoGroup.NoCategory.TuberculinOrderFormOld",
+      "Group": "",
+      "Category": "",
+      "Name": "Tuberculin Order Form Old",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "NoGroup.NoCategory.TuberculinOrderFormOld.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "NoGroup.NoCategory.TuberculinOrderFormOld.Date",
+          "FieldName": "Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.TuberculinOrderFormOld.PracticeName",
+          "FieldName": "Practice Name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.TuberculinOrderFormOld.DeliveryAddress",
+          "FieldName": "Delivery Address",
+          "IsMultiValue": false,
+          "Type": "Address",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.TuberculinOrderFormOld.Postcode",
+          "FieldName": "Postcode",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.TuberculinOrderFormOld.ContactName",
+          "FieldName": "Contact Name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#c0c342"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "m"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.TuberculinOrderFormOld.TelephoneNumber",
+          "FieldName": "Telephone Number",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8da5e4"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.TuberculinOrderFormOld.22mlQuantity",
+          "FieldName": "2.2ml Quantity",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#3ddb77"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "2"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.TuberculinOrderFormOld.52mlQuantity",
+          "FieldName": "5.2ml Quantity",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#7d2eee"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "5"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.TuberculinOrderFormOld.ApproversName",
+          "FieldName": "Approvers Name",
+          "IsMultiValue": false,
+          "Type": "Name",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#cf9a38"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "v"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.TuberculinOrderFormOld.Signiture",
+          "FieldName": "Signiture",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#a9976d"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "g"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.TuberculinOrderFormOld.RCVSNumber",
+          "FieldName": "RCVS Number",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#5970aa"
             },
             {
               "Key": "Hotkey",

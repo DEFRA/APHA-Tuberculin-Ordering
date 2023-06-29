@@ -7,7 +7,7 @@ Contact Name,3,TRUE
 Telephone Number,3,TRUE
 2.2ml Quantity,2,TRUE
 5.2ml Quantity,2,TRUE
-Approvers Name,2,TRUE
+Approvers Name,1,TRUE
 Signature,6,TRUE
 RCVS Number,2,TRUE
 Tick Box,6,TRUE
