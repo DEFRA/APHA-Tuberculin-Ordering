@@ -1,8 +1,8 @@
 TaxonomyFieldName,Priority,FieldMandatory
 Date,2,TRUE
 Practice Name,2,TRUE
-Delivery Address,1,TRUE
-Postcode,2,TRUE
+Delivery Address,2,TRUE
+Postcode,1,TRUE
 Contact Name,3,TRUE
 Telephone Number,3,TRUE
 2.2ml Quantity,2,TRUE
